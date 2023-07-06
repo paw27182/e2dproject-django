@@ -1,0 +1,4 @@
+2023-07-06 10:08:24,896	[INFO]	c:\Python\enve2d\lib\site-packages\django\utils\autoreload.py(Line:266)	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject-django\apps\appml\sub\algo\reg_find_optimal_model.py changed, reloading.
+2023-07-06 10:08:27,761	[INFO]	c:\Python\enve2d\lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-06 10:09:25,660	[INFO]	c:\Python\enve2d\lib\site-packages\django\utils\autoreload.py(Line:266)	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject-django\e2dproject\settings.py changed, reloading.
+2023-07-06 10:09:27,564	[INFO]	c:\Python\enve2d\lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader

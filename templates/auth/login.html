@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/login.js' %}"></script>
+{% endblock %}
+
+{% block header %}
+    <h1></h1>
+    <form class="form-inline d-flex justify-content-end">
+        <div class="form-group ps-0">
+            <a href="{% static 'manual/html/index.html' %}" target="_blank" rel="noopener noreferrer">Manual</a>
+        </div>
+        <div class="form-group ps-3">
+           <a href="{% url 'accounts:changepassword' %}">Change password</a>
+<!--             <a href="javascript:void(0)" title="UNDISCLOSED">Change password</a>-->
+        </div>
+        <div class="form-group ps-3">
+           <a href="{% url 'accounts:signup' %}">Sign Up</a>
+<!--             <a href="javascript:void(0)" title="UNDISCLOSED">Sign Up</a>-->
+        </div>
+    </form>
+{% endblock %}
+
+{% block navigation %}
+<div class="text-white py-5" style="background:url(/static/image/{{ jumbotron_image }});background-size:cover;">
+    <div class="container">
+        <h1>{{ headline }}</h1>
+    </div>
+</div>
+{% endblock %}
+
+<!-- Login Button -->
+{% block content %}
+    <div class="row">
+        <div class="col-1">
+        </div>
+
+        <div class="col-10">
+            <form class="form-signin" role="form" method="POST">{% csrf_token %}
+                <h2 class="form-signin-heading">Please Login</h2>
+
+                <div class="form-group form-row w-auto my-1">
+                    <label for="inputUsername">Email address</label>
+                    <img src="{% static 'icon/person-check.svg' %}" alt="Bootstrap" width="24px" height="24px">
+                    <input type="email" id="inputUsername" name="username" class="form-control" placeholder="guest@example.com" required autofocus>
+                </div>
+
+                <div class="form-group form-row w-50 my-1" id="form_button_for_login">
+                    <label for="inputPassword">Password</label>
+                    <img src="{% static 'icon/key.svg' %}" alt="Bootstrap" width="24px" height="24px">
+                    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                </div>
+
+                <button class="btn btn-primary btn-block font-weight-bold w-100 my-1" type="submit" id="login">Login</button>
+            </form>
+        </div>
+
+        <div class="col-1">
+        </div>
+    </div>
+{% endblock %}
