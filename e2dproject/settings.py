@@ -180,8 +180,7 @@ AUTH_USER_MODEL = 'accounts.User'
 # In case of Windows 10
 # specify python executable file
 PYTHON_EXE_FILE = r"C:/Python/enve2d/Scripts/python.exe"
-# BASE_DIR = r"C:/temp/e2dproject-django"  # specify base directory
-BASE_DIR = r"F:/GDrive/Programming/Python/MyProject/TekapawSoft/e2d-folder/e2dproject-django"
+BASE_DIR = r"C:/temp/e2dproject-django"  # specify base directory
 HOST = "127.0.0.1"  # localhost
 PORT = 5002
 DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
@@ -189,8 +188,7 @@ DATABASE_TYPE = "SQLite3"
 
 # # In case of Ubuntu 20.04.6 LT
 # PYTHON_EXE_FILE = "/home/paw/enve2d/bin/python3.10"  # specify python executable file
-# # BASE_DIR = "/home/paw/e2dproject-django"  # specify base directory
-# BASE_DIR = "/mnt/f/GDrive/Programming/Python/MyProject/TekapawSoft/e2d-folder/e2dproject-django"
+# BASE_DIR = "/home/paw/e2dproject-django"  # specify base directory
 # HOST = "127.0.0.1"  # localhost
 # PORT = 5002
 # DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
