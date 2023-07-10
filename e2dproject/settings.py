@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-juwz19_zqqqf)*5xg#jh4v%&)eeg4_@0*_2n8l8y0zr20!_!!t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['e2dj.azurewebsites.net']  # Azure
 
 
 # Application definition
@@ -177,17 +177,14 @@ LOGGING = {
 
 AUTH_USER_MODEL = 'accounts.User'
 
-# In case of Windows 10
-# specify python executable file
-PYTHON_EXE_FILE = r"C:/Python/enve2d/Scripts/python.exe"
-BASE_DIR = r"C:/temp/e2dproject-django"  # specify base directory
-
+# # In case of Windows 10
+# # specify python executable file
+# PYTHON_EXE_FILE = r"C:/Python/enve2d/Scripts/python.exe"
+# BASE_DIR = r"C:/temp/e2dproject-django"  # specify base directory
 # HOST = "127.0.0.1"  # localhost
-HOST = "e2dj.azurewebsites.net'"  # Azure
-
-PORT = 5002
-DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
-DATABASE_TYPE = "SQLite3"
+# PORT = 5002
+# DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
+# DATABASE_TYPE = "SQLite3"
 
 # # In case of Ubuntu 20.04.6 LT
 # PYTHON_EXE_FILE = "/home/paw/enve2d/bin/python3.10"  # specify python executable file
@@ -196,3 +193,10 @@ DATABASE_TYPE = "SQLite3"
 # PORT = 5002
 # DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
 # DATABASE_TYPE = "SQLite3"
+
+
+BASE_DIR = r"."
+HOST = None
+PORT = None
+DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
+DATABASE_TYPE = "SQLite3"
