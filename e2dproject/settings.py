@@ -181,7 +181,10 @@ AUTH_USER_MODEL = 'accounts.User'
 # specify python executable file
 PYTHON_EXE_FILE = r"C:/Python/enve2d/Scripts/python.exe"
 BASE_DIR = r"C:/temp/e2dproject-django"  # specify base directory
-HOST = "127.0.0.1"  # localhost
+
+# HOST = "127.0.0.1"  # localhost
+HOST = "e2dj.azurewebsites.net'"  # Azure
+
 PORT = 5002
 DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
 DATABASE_TYPE = "SQLite3"
