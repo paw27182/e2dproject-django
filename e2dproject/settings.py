@@ -13,8 +13,8 @@ SECRET_KEY = 'django-insecure-juwz19_zqqqf)*5xg#jh4v%&)eeg4_@0*_2n8l8y0zr20!_!!t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['e2dj.azurewebsites.net']  # Azure
-
+ALLOWED_HOSTS = ['e2dj.azurewebsites.net', 'localhost', '127.0.0.1']  # Azure
+CSRF_TRUSTED_ORIGINS = ['https://e2dj.azurewebsites.net']  # Azure
 
 # Application definition
 
