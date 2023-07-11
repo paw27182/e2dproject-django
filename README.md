@@ -18,7 +18,7 @@
 
 * Program start
   * cd e2dproject-django
-  * python.exe manage.py runserver
+  * python.exe manage.py runserver 8000
 
 <br>
 
