@@ -12,7 +12,6 @@
 * Environment setting
   * Edit settings.py
     * set PYTHON_EXE_FILE
-    * set BASE_DIR
 
 <br>
 
