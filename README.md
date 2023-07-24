@@ -9,6 +9,8 @@
 
 # 2. How to use
 
+* Install the prerequisite python libraries
+
 * Environment setting
   * Edit settings.py
     * set PYTHON_EXE_FILE
