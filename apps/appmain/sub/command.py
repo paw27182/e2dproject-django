@@ -240,7 +240,7 @@ def get_a_list_of_forms(current_username):
     result = list()
     for user in GroupInfo.objects.filter(username=current_username).all():
         for obj in FormList.objects.filter(groupname=user.groupname).all():
-            result.append([obj.formname, obj.form_size, obj.groupname, obj.update_at, obj.modified_by])
+            result.append([obj.formname, obj.form_size, obj.groupname, obj.update_at.strftime(ftime), obj.modified_by])
 
     result.sort(key=lambda x: x[0])
     items = [[i+1, *item] for i, item in enumerate(result)]
@@ -311,7 +311,7 @@ def read_form_items_for_privilege(command, selected_form, current_username):
         items = list()
         for group in groups:
             for obj in GroupInfo.objects.filter(groupname=group).all():
-                items.append(["-", obj.groupname, obj.dbname, obj.username, obj.rolename, obj.update_at, obj.modified_by])
+                items.append(["-", obj.groupname, obj.dbname, obj.username, obj.rolename, obj.update_at.strftime(ftime), obj.modified_by])
 
     # form_info_entry
     elif selected_form in ["form_info_entry"]:
@@ -319,7 +319,7 @@ def read_form_items_for_privilege(command, selected_form, current_username):
         items = list()
         for group in groups:
             for obj in FormInfo.objects.filter(groupname=group).all():
-                items.append([obj.formname, obj.groupname, "-", "-", "-", obj.update_at, obj.modified_by])
+                items.append([obj.formname, obj.groupname, "-", "-", "-", obj.update_at.strftime(ftime), obj.modified_by])
     else:
         key = []
         items = []
@@ -365,7 +365,7 @@ def read_signup_users(current_username):
         return key, items
 
     # for obj in UserInfo.objects.filter().all():
-    #     items.append(["-", "-", "-", obj.username, obj.update_at, obj.modified_by])
+    #     items.append(["-", "-", "-", obj.username, obj.update_at.strftime(ftime), obj.modified_by])
 
     # FIXME in case Django
     items = list()
