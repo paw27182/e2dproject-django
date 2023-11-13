@@ -36,7 +36,7 @@
 # 3. System
 * OS: Windows 10, Ubuntu 20.04.6 LTS)
 * Web Framework: Django
-* Python 3.11.4
+* Python 3.11.6
 * Python Libraries: See requirements.txt
 * Bootstrap 5.2.3
 * jQuery 3.7.0
