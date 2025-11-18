@@ -7,6 +7,10 @@
 
 <br>
 
+<img src="e2d.png">
+
+<br>
+
 # 2. How to use
 
 * Install the prerequisite python libraries
