@@ -1,0 +1,20 @@
+{% load static %}
+
+<script src="{% static 'js/appmain.js' %}"></script>
+
+{% if alert == "NG" %}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+{% else %}
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+{% endif %}
+    {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- download link -->
+    <div>
+        {% if alert == "OK" %}
+        <a href="{% static 'wdir/' %}{{ user }}/{{ filename }}" download='{{ filename }}'>Click me to download
+            {{filename }}</a>
+        {% endif %}
+    </div>

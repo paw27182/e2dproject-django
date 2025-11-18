@@ -1,0 +1,89 @@
+{% load static %}
+
+<script src="{% static 'js/appmain.js' %}"></script>
+
+{% if "NG" in alert %}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        {{ alert }}
+    </div>
+{% endif %}
+
+<div class="table-responsive">
+    {% if command == "machine_learning" %}
+        <table class="table table-hover table-primary mt-2">
+    {% else %}
+        <table class="table table-hover table-dark mt-2">
+    {% endif %}
+
+    <thead>
+        <tr>
+            <th >#</th>
+            <th>Form</th>
+            <th>...</th>
+            <th>Size</th>
+            <th>Group</th>
+            <th>update_at</th>
+            <th>modified_by</th>
+
+         </tr>
+    </thead>
+
+    {% for item in items%}
+        <tbody>
+            <tr>
+                <td> {{ item.0 }} </td><!-- # -->
+                <td> {{ item.1 }} </td><!-- Form -->
+
+                <td><!-- Button -->
+                    <div class="tab-pane fade show" role="tabpanel">
+                        <div class="form-group row">
+                            <div class="col">
+                                <li class="nav-item dropdown">
+                                    {% if command == "privilege" %}
+                                    <button class="btn btn-dark dropdown-toggle" id="inquiryFormDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Database Administrator can replace all the items through the entry of group_info_entry.xlsx, and Group Administrator form_info_entry.xlsx">...</button>
+
+                                    <div class="dropdown-menu" aria-labelledby="inquiryFormDropdown">
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_privilege_items" value1="{{ item.1 }}" value2="{{ item.3 }}">Show privilege items</a>
+                                    </div>
+
+                                    {% elif command == "signupusers" %}
+                                    <button class="btn btn-dark dropdown-toggle" id="inquiryFormDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="">...</button>
+
+                                    <div class="dropdown-menu" aria-labelledby="inquiryFormDropdown">
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_signup_users" value1="{{ item.1 }}" value2="{{ item.3 }}">Show signup users</a>
+                                    </div>
+
+                                    {% else %}
+                                    <button class="btn btn-dark dropdown-toggle" id="inquiryFormDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</button>
+
+                                    <div class="dropdown-menu" aria-labelledby="inquiryFormDropdown">
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_the_first_item" value1="{{ item.1 }}" value2="{{ item.3 }}">Show the first item</a>
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_items_updated_today" value1="{{ item.1 }}" value2="{{ item.3 }}">Show items updated today</a>
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_items_updated_in_a_week" value1="{{ item.1 }}" value2="{{ item.3 }}">Show items updated in a week</a>
+                                        <a class="btn_result dropdown-item" style="color:blue" href="#" id="show_all_the_items" value1="{{ item.1 }}" value2="{{ item.3 }}">Show all the items</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="btn_result dropdown-item" style="color:green" href="#" id="download_all_the_items" value1="{{ item.1 }}" value2="{{ item.3 }}">Download all the items(csv)</a>
+
+<!--                                        <a class="btn_result dropdown-item" style="color:green" href="#" id="download_database" value1="{{ item.1 }}" value2="{{ item.3 }}">Download database</a>-->
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="btn_result dropdown-item" style="color:red" href="#" id="drop_form_confirm" value1="{{ item.1 }}" value2="{{ item.3 }}" value3="{{ item.4 }}">DELETE THIS FORM</a>
+                                    </div>
+                                    {% endif %}
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td> {{ item.2 }} </td><!-- Size -->
+                <td> {{ item.3 }} </td><!-- Form Owner Group -->
+                <td> {{ item.4 }} </td><!-- update_at -->
+                <td> {{ item.5 }} </td><!-- modified_by -->
+
+            </tr>
+        </tbody>
+    {% endfor %}
+
+    </table>
+</div>

@@ -1,0 +1,74 @@
+{% load static %}
+
+<script src="{% static 'js/appml.js' %}"></script>
+
+{% if alert == "NG" %}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+{% else %}
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+{% endif %}
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+<div>
+    <p>total computation time:  {{ tc_time }}</p>
+</div>
+
+{% for image in images %}
+    {% with imgSize=256 %}
+    <a href= "#{{ image|slice:"11:-4" }}" data-bs-toggle="modal">
+        <img src="{% static 'wdir/' %}{{ user }}/output/{{ image }}" width={{ imgSize }} height={{ imgSize }} class="img-fluid rounded mb-1">
+    </a>
+    {% endwith %}
+
+    <!-- Modal Dialog -->
+    <div class="modal fade" id="{{ image|slice:"11:-4" }}" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="modal-title">"{{ image|slice:"11:-4" }}"</h6>
+                    <img src="{% static 'wdir/' %}{{ user }}/output/{{ image }}" class="img-fluid mt-2">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+
+{% for url in urls %}
+    {% with imgSize=256 %}
+    <a class="btn btn-lg btn-success font-weight-bold img-fluid rounded" href="{% static 'wdir/' %}{{ user }}/output/{{ url }}" target="_blank" rel="noopener noreferrer" role="button">{{ url|slice:"11:-5"}}</a>
+    {% endwith %}
+{% endfor %}
+
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                {% for col in results.0 %}
+                    <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+
+        {% for item in results|slice:"1:" %}
+            <tbody>
+                 <tr>
+                    {% for col in item %}
+                        <td> {{ col }} </td>
+                    {% endfor %}
+                 </tr>
+            </tbody>
+       {% endfor %}
+
+    </table>
+</div>
+
+<!-- download link -->
+<div>
+    <a href="{% static 'wdir/' %}{{ user }}/{{ filename }}" download="payload.zip">Click me to download: {{ filename }}</a>
+</div>

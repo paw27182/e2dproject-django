@@ -1,0 +1,11 @@
+===================
+**付録Ｂ 機械学習**
+===================
+
+
+**[UNDISCLOSED]**
+
+
+**混同行列 confusion matrix**
+
+  ..  image:: /_static/image/confusionmatrix.png

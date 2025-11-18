@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/login.js' %}"></script>
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block navigation %}
+{% endblock %}
+
+<!-- Sign Up Button -->
+{% block content %}
+    <div class="row">
+        <div class="col-2">
+        </div>
+
+        <div class="col-8">
+            <form class="form-signin"  role="form" method="POST">
+                <h2 class="form-signin-heading text-center">Sign Up</h2>
+
+                <div class="form-group form-row my-1">
+                    <input type="email" id="inputUsername" name="username" class="form-control" placeholder="Email address" required autofocus>
+                </div>
+
+                <div class="form-group form-row my-1">
+                    <input type="password" id="inputPassword" name="password" class="form-control w-auto" placeholder="Password" required>
+                </div>
+
+                <div class="form-group form-row my-1">
+                    <input type="password" id="inputPassword_confirm" name="password_confirm" class="form-control w-auto" placeholder="Password Confirm" required>
+                </div>
+
+                <button class="btn btn-primary btn-block my-1" type="submit" id="signup">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="col-2">
+        </div>
+    </div>
+{% endblock %}

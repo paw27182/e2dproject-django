@@ -1,0 +1,429 @@
+2023-07-11 20:00:15,557	[INFO]	C:\Python\env\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-11 20:00:23,910	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-11 20:00:23,942	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-07-11 20:00:23,960	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-11 20:00:24,014	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-11 20:00:24,019	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-07-11 20:00:24,143	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-07-11 20:00:24,201	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-07-11 20:00:24,260	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/1.jpg HTTP/1.1" 200 10325
+2023-07-11 20:00:24,264	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-11 20:00:24,289	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-11 20:00:24,462	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-11 20:00:24,516	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/5.jpg HTTP/1.1" 200 7214
+2023-07-11 20:00:24,620	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/favicon.png HTTP/1.1" 200 10743
+2023-07-11 20:00:27,659	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-11 20:00:27,677	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-11 20:00:27,695	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-11 20:00:27,752	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/topview.js HTTP/1.1" 200 6419
+2023-07-11 20:00:27,759	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-11 20:00:30,678	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire_appml.html HTTP/1.1" 200 203
+2023-07-11 20:00:30,705	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-11 20:00:30,718	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appml.js HTTP/1.1" 200 4428
+2023-07-11 20:00:30,803	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 5804
+2023-07-11 20:00:34,316	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-11 20:00:45,747	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 17573
+2023-07-11 20:00:45,797	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073235_p_histogram_class.png HTTP/1.1" 200 20849
+2023-07-11 20:00:45,797	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073234_p_histogram_flavanoids.png HTTP/1.1" 200 40114
+2023-07-11 20:00:45,830	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073235_p_histogram_proline.png HTTP/1.1" 200 44643
+2023-07-11 20:00:45,831	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073235_p_histogram_dilutedWines.png HTTP/1.1" 200 38464
+2023-07-11 20:00:45,886	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073236_p_piersons_r.png HTTP/1.1" 200 31604
+2023-07-11 20:00:45,887	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073244_p_3DboundarySurface.png HTTP/1.1" 200 64862
+2023-07-11 20:00:45,897	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1689073241_p_3DscatterDiagram.png HTTP/1.1" 200 51673
+2023-07-11 20:00:48,107	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire.html HTTP/1.1" 200 205
+2023-07-11 20:00:48,141	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-07-11 20:00:48,143	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appmain.js HTTP/1.1" 200 4487
+2023-07-11 20:00:48,185	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 12072
+2023-07-11 20:00:50,846	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-07-11 20:00:50,856	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-11 20:00:50,893	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-11 20:00:50,925	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2023-07-27 09:41:22,540	[INFO]	C:\Python\enve2d-django\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-27 09:47:57,576	[INFO]	C:\Python\enve2d-django\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-27 10:28:54,133	[INFO]	c:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-27 10:29:06,570	[ERROR]	c:\Python\enve2d\Lib\site-packages\django\utils\log.py(Line:241)	Internal Server Error: /login
+Traceback (most recent call last):
+  File "c:\Python\enve2d\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python\enve2d\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python\enve2d\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python\enve2d\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-07-27 10:29:06,577	[ERROR]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login HTTP/1.1" 500 76046
+2023-07-27 10:29:06,985	[WARNING]	c:\Python\enve2d\Lib\site-packages\django\utils\log.py(Line:241)	Not Found: /favicon.ico
+2023-07-27 10:29:06,986	[WARNING]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /favicon.ico HTTP/1.1" 404 3625
+2023-07-27 10:29:18,196	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-27 10:29:18,221	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-07-27 10:29:18,241	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 10:29:18,288	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-07-27 10:29:18,296	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 10:29:18,370	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-07-27 10:29:18,380	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-07-27 10:29:18,440	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2023-07-27 10:29:18,506	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/favicon.png HTTP/1.1" 200 10743
+2023-07-27 10:29:20,899	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-27 10:29:20,921	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-27 10:29:20,938	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-27 10:29:20,998	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/topview.js HTTP/1.1" 200 6419
+2023-07-27 10:29:21,012	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 10:29:23,299	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire_appml.html HTTP/1.1" 200 203
+2023-07-27 10:29:23,320	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-27 10:29:23,351	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appml.js HTTP/1.1" 200 4428
+2023-07-27 10:29:23,401	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 5804
+2023-07-27 10:29:27,536	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-27 10:29:38,530	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 17573
+2023-07-27 10:29:38,555	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421368_p_histogram_dilutedWines.png HTTP/1.1" 200 38464
+2023-07-27 10:29:38,561	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421368_p_histogram_flavanoids.png HTTP/1.1" 200 40114
+2023-07-27 10:29:38,574	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421368_p_histogram_proline.png HTTP/1.1" 200 44643
+2023-07-27 10:29:38,575	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421369_p_histogram_class.png HTTP/1.1" 200 20849
+2023-07-27 10:29:38,598	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421377_p_3DboundarySurface.png HTTP/1.1" 200 64862
+2023-07-27 10:29:38,626	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421369_p_piersons_r.png HTTP/1.1" 200 31604
+2023-07-27 10:29:38,644	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690421374_p_3DscatterDiagram.png HTTP/1.1" 200 51673
+2023-07-27 10:29:41,484	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire.html HTTP/1.1" 200 205
+2023-07-27 10:29:41,543	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-07-27 10:29:41,549	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appmain.js HTTP/1.1" 200 4487
+2023-07-27 10:29:41,595	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 12072
+2023-07-27 10:29:44,185	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-07-27 10:29:44,209	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 3629
+2023-07-27 10:29:46,224	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-07-27 10:29:46,240	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 10:29:46,305	[INFO]	c:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 04:55:43,795	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-27 04:56:02,960	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-27 04:56:03,024	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-07-27 04:56:03,083	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 04:56:03,219	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-07-27 04:56:03,256	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 04:56:03,376	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-07-27 04:56:03,389	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-07-27 04:56:03,527	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/image/5.jpg HTTP/1.1" 200 7214
+2023-07-27 04:56:06,820	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-27 04:56:06,836	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-27 04:56:06,896	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-27 04:56:06,991	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 04:56:44,494	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-07-27 04:56:44,504	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 04:56:44,607	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 04:56:44,749	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2023-07-27 04:56:47,720	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 04:56:47,804	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 04:56:56,167	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-27 04:56:56,188	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-27 04:56:56,243	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-27 04:56:56,335	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 05:10:41,130	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-07-27 05:10:55,027	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-27 05:10:55,097	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 05:10:55,252	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 05:10:57,831	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-27 05:10:57,871	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-27 05:10:57,946	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-27 05:10:58,077	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-07-27 05:11:06,825	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-07-27 05:11:06,848	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-07-27 05:11:06,861	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 05:11:06,984	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 200 165
+2023-07-27 05:11:07,127	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-07-27 05:11:07,300	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-07-27 05:11:07,301	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-07-27 05:11:07,389	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/image/5.jpg HTTP/1.1" 200 7214
+2023-07-27 05:11:07,608	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/image/favicon.png HTTP/1.1" 200 10743
+2023-07-27 05:11:09,943	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-07-27 05:11:09,963	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-07-27 05:11:10,027	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-07-27 05:11:10,145	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/js/topview.js HTTP/1.1" 200 6419
+2023-07-27 05:11:13,066	[INFO]	/mnt/f/GDrive/Programming/Python/MyProject/TekapawSoft/e2d-folder/e2dproject/apps/appml/views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-27 05:11:13,073	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/html/inquire_appml.html HTTP/1.1" 200 203
+2023-07-27 05:11:13,174	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/js/appml.js HTTP/1.1" 200 4428
+2023-07-27 05:11:13,606	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 5804
+2023-07-27 05:11:16,616	[INFO]	/mnt/f/GDrive/Programming/Python/MyProject/TekapawSoft/e2d-folder/e2dproject/apps/appml/views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-07-27 05:11:29,968	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 17573
+2023-07-27 05:11:30,098	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_histogram_class.png HTTP/1.1" 200 20849
+2023-07-27 05:11:30,101	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434678_p_histogram_dilutedWines.png HTTP/1.1" 200 38464
+2023-07-27 05:11:30,143	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434679_p_histogram_proline.png HTTP/1.1" 200 44643
+2023-07-27 05:11:30,227	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434677_p_histogram_flavanoids.png HTTP/1.1" 200 40114
+2023-07-27 05:11:30,303	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_piersons_r.png HTTP/1.1" 200 31604
+2023-07-27 05:11:30,316	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434688_p_3DboundarySurface.png HTTP/1.1" 200 67698
+2023-07-27 05:11:30,335	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434685_p_3DscatterDiagram.png HTTP/1.1" 200 53824
+2023-07-27 05:11:33,494	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-07-27 05:11:33,511	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-07-27 05:11:33,747	[INFO]	/home/paw/enve2d/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2023-08-21 13:54:15,690	[INFO]	C:\Python\Python311\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-08-21 13:54:30,895	[ERROR]	C:\Python\Python311\Lib\site-packages\django\utils\log.py(Line:241)	Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-08-21 13:54:30,897	[ERROR]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login HTTP/1.1" 500 73561
+2023-08-21 13:54:31,236	[WARNING]	C:\Python\Python311\Lib\site-packages\django\utils\log.py(Line:241)	Not Found: /favicon.ico
+2023-08-21 13:54:31,237	[WARNING]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /favicon.ico HTTP/1.1" 404 3625
+2023-08-21 13:56:22,967	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-08-21 13:56:22,985	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-08-21 13:56:23,290	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-08-21 13:56:23,329	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-08-21 13:56:23,337	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-08-21 13:56:23,555	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-08-21 13:56:23,563	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-08-21 13:56:23,645	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/5.jpg HTTP/1.1" 200 7214
+2023-08-21 13:56:23,738	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/favicon.png HTTP/1.1" 200 10743
+2023-08-21 13:56:26,779	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-08-21 13:56:26,794	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-08-21 13:56:26,809	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-08-21 13:56:26,886	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/topview.js HTTP/1.1" 200 6419
+2023-08-21 13:56:26,901	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-08-21 13:56:29,681	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire.html HTTP/1.1" 200 205
+2023-08-21 13:56:29,697	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:56:29,706	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appmain.js HTTP/1.1" 200 4487
+2023-08-21 13:56:29,745	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 12128
+2023-08-21 13:56:42,231	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:56:42,246	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 3564
+2023-08-21 13:56:45,047	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:56:45,054	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 1844
+2023-08-21 13:56:47,404	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire_appml.html HTTP/1.1" 200 203
+2023-08-21 13:56:47,410	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-08-21 13:56:47,441	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appml.js HTTP/1.1" 200 4428
+2023-08-21 13:56:47,567	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 5818
+2023-08-21 13:57:01,279	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:57:01,292	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 12128
+2023-08-21 13:57:03,886	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:57:03,903	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 4227
+2023-08-21 13:57:13,543	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:57:13,555	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 12128
+2023-08-21 13:57:18,423	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2023-08-21 13:57:18,631	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appmain/ HTTP/1.1" 200 423925
+2023-08-21 13:57:34,687	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-08-21 13:57:34,696	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-08-21 13:57:34,763	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-08-21 13:57:34,928	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/4.jpg HTTP/1.1" 200 158509
+2023-08-21 13:57:51,510	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-08-21 13:57:51,523	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-08-21 13:57:51,534	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-08-21 13:57:51,591	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-08-21 13:57:54,646	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-08-21 13:57:54,653	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-08-21 13:57:54,689	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-08-21 13:57:54,733	[INFO]	C:\Python\Python311\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2023-11-12 22:12:07,309	[INFO]	C:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-11-12 22:13:14,005	[INFO]	C:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-11-12 22:13:23,112	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-11-12 22:13:23,148	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-11-12 22:13:23,344	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-12 22:13:23,447	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-11-12 22:13:23,472	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-11-12 22:13:24,561	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-11-12 22:13:24,576	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-11-12 22:13:24,643	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/3.jpg HTTP/1.1" 200 46055
+2023-11-12 22:13:31,864	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 200 44
+2023-11-12 22:13:37,925	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-12 22:13:48,250	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 200 44
+2023-11-12 22:13:52,751	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-12 22:13:52,807	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/4.jpg HTTP/1.1" 200 158509
+2023-11-12 22:13:55,367	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /signup/ HTTP/1.1" 200 2815
+2023-11-12 22:13:55,415	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-11-12 22:14:43,783	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /signup/ HTTP/1.1" 200 32
+2023-11-12 22:15:23,998	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /signup/ HTTP/1.1" 200 2815
+2023-11-12 22:15:39,243	[ERROR]	C:\Python\enve2d\Lib\site-packages\django\utils\log.py(Line:241)	Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Python\enve2d\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\enve2d\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\enve2d\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\enve2d\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-11-12 22:15:39,250	[ERROR]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login HTTP/1.1" 500 75762
+2023-11-12 22:15:40,104	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 200 44
+2023-11-12 22:16:47,585	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET / HTTP/1.1" 302 0
+2023-11-12 22:16:47,600	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-12 22:16:47,823	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-11-12 22:16:47,899	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/5.jpg HTTP/1.1" 200 7214
+2023-11-12 22:16:51,291	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /signup/ HTTP/1.1" 200 2815
+2023-11-12 22:16:51,342	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 304 0
+2023-11-12 22:17:05,681	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /signup/ HTTP/1.1" 200 32
+2023-11-13 12:38:20,722	[INFO]	C:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2023-11-13 12:38:45,631	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-13 12:38:45,692	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/css/style.css HTTP/1.1" 200 165
+2023-11-13 12:38:45,698	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/login.js HTTP/1.1" 200 731
+2023-11-13 12:38:45,783	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/person-check.svg HTTP/1.1" 200 552
+2023-11-13 12:38:45,793	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/icon/key.svg HTTP/1.1" 200 631
+2023-11-13 12:38:45,884	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/4.jpg HTTP/1.1" 200 158509
+2023-11-13 12:38:49,049	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /login/ HTTP/1.1" 302 0
+2023-11-13 12:38:49,200	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview HTTP/1.1" 301 0
+2023-11-13 12:38:49,214	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /topview/ HTTP/1.1" 200 5835
+2023-11-13 12:38:49,253	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/topview.js HTTP/1.1" 200 6419
+2023-11-13 12:38:51,620	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/html/inquire_appml.html HTTP/1.1" 200 203
+2023-11-13 12:38:51,629	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-11-13 12:38:51,681	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/js/appml.js HTTP/1.1" 200 4428
+2023-11-13 12:38:51,705	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 5818
+2023-11-13 12:38:53,271	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2023-11-13 12:38:53,838	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"POST /appml/ HTTP/1.1" 200 17573
+2023-11-13 12:38:53,858	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434677_p_histogram_flavanoids.png HTTP/1.1" 200 40114
+2023-11-13 12:38:53,859	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434678_p_histogram_dilutedWines.png HTTP/1.1" 200 38464
+2023-11-13 12:38:53,869	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_histogram_class.png HTTP/1.1" 200 20849
+2023-11-13 12:38:53,872	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434679_p_histogram_proline.png HTTP/1.1" 200 44643
+2023-11-13 12:38:53,896	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434688_p_3DboundarySurface.png HTTP/1.1" 200 67698
+2023-11-13 12:38:53,900	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_piersons_r.png HTTP/1.1" 200 31604
+2023-11-13 12:38:53,907	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/wdir/sakura.suwa@example.com/output/1690434685_p_3DscatterDiagram.png HTTP/1.1" 200 53824
+2023-11-13 12:38:55,674	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /logout/ HTTP/1.1" 302 0
+2023-11-13 12:38:55,702	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login HTTP/1.1" 301 0
+2023-11-13 12:38:55,714	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /login/ HTTP/1.1" 200 3884
+2023-11-13 12:38:55,813	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:212)	"GET /static/image/3.jpg HTTP/1.1" 200 46055
+2023-11-14 04:21:09,813	[INFO]	/home/paw/env/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-11-10 12:57:08,861	[INFO]	C:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-11-10 12:58:08,437	[INFO]	C:\Python\enve2d\Lib\site-packages\django\utils\autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-11-10 12:58:15,895	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2024-11-10 12:58:15,924	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2024-11-10 12:58:20,537	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:81)	- Broken pipe from ('127.0.0.1', 51577)
+2024-11-10 12:58:22,680	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /login/ HTTP/1.1" 302 0
+2024-11-10 12:58:22,692	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview HTTP/1.1" 301 0
+2024-11-10 12:58:22,707	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview/ HTTP/1.1" 200 5840
+2024-11-10 12:58:22,750	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2024-11-10 12:58:27,827	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2024-11-10 12:58:27,858	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appmain/ HTTP/1.1" 200 12128
+2024-11-10 12:58:29,243	[INFO]	F:\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2024-11-10 12:58:29,321	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 5818
+2024-11-10 12:58:34,323	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /logout/ HTTP/1.1" 302 0
+2024-11-10 12:58:34,330	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2024-11-10 12:58:34,374	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2024-11-10 12:58:34,416	[INFO]	C:\Python\enve2d\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/image/4.jpg HTTP/1.1" 200 158509
+2025-11-13 18:03:51,564	[INFO]	C:\Python\env\Lib\site-packages\django\utils\autoreload.py(Line:667)	Watching for file changes with StatReloader
+2025-11-13 18:05:34,082	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET / HTTP/1.1" 302 0
+2025-11-13 18:05:34,105	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login HTTP/1.1" 301 0
+2025-11-13 18:05:34,157	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2025-11-13 18:05:34,202	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-13 18:05:34,392	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/image/2.jpg HTTP/1.1" 200 81572
+2025-11-13 18:05:38,600	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /login/ HTTP/1.1" 302 0
+2025-11-13 18:05:38,612	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview HTTP/1.1" 301 0
+2025-11-13 18:05:38,655	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview/ HTTP/1.1" 200 5840
+2025-11-13 18:05:38,692	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-13 18:05:48,504	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appmain\views.py(Line:49)	[views.py] ----- "/appmain" sakura.suwa@example.com -----
+2025-11-13 18:05:48,532	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appmain/ HTTP/1.1" 200 12128
+2025-11-13 18:05:51,758	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2025-11-13 18:05:52,073	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 5818
+2025-11-13 18:06:00,125	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2025-11-13 18:06:01,961	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 17573
+2025-11-13 18:06:01,983	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434677_p_histogram_flavanoids.png HTTP/1.1" 200 40114
+2025-11-13 18:06:01,998	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434688_p_3DboundarySurface.png HTTP/1.1" 200 67698
+2025-11-13 18:06:02,012	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434678_p_histogram_dilutedWines.png HTTP/1.1" 200 38464
+2025-11-13 18:06:02,025	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434679_p_histogram_proline.png HTTP/1.1" 200 44643
+2025-11-13 18:06:02,040	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_histogram_class.png HTTP/1.1" 200 20849
+2025-11-13 18:06:02,054	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434680_p_piersons_r.png HTTP/1.1" 200 31604
+2025-11-13 18:06:02,067	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1690434685_p_3DscatterDiagram.png HTTP/1.1" 200 53824
+2025-11-13 18:06:15,561	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2025-11-13 18:06:15,688	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 5818
+2025-11-13 18:06:57,304	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2025-11-13 18:07:01,815	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:154)	Chromium init'ed with kwargs {}
+2025-11-13 18:07:01,817	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:188)	Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-11-13 18:07:01,821	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:80)	Temp directory created: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmpkp_rxhml.
+2025-11-13 18:07:01,824	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:111)	Opening browser.
+2025-11-13 18:07:01,827	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:80)	Temp directory created: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmp9ue2gbb2.
+2025-11-13 18:07:01,828	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:203)	Temporary directory at: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmp9ue2gbb2
+2025-11-13 18:07:02,329	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:150)	Conforming 1 to file:///C:/Users/%E6%B8%8B%E8%B0%B7%E4%BA%AE%E4%B8%80/AppData/Local/Temp/tmpkp_rxhml/index.html
+2025-11-13 18:07:02,335	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:163)	Waiting on all navigates
+2025-11-13 18:07:04,234	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:165)	All navigates done, putting them all in queue.
+2025-11-13 18:07:04,238	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:218)	Getting tab from queue (has 1)
+2025-11-13 18:07:04,238	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:220)	Got 1199
+2025-11-13 18:07:04,239	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:284)	Processing Tips_the_axes_through_SelectKBest_algorithm.png
+2025-11-13 18:07:04,239	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:306)	Sending big command for Tips_the_axes_through_SelectKBest_algorithm.png.
+2025-11-13 18:07:05,500	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:312)	Sent big command for Tips_the_axes_through_SelectKBest_algorithm.png.
+2025-11-13 18:07:05,502	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:231)	Reloading tab 1199 before return.
+2025-11-13 18:07:05,749	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:233)	Putting tab 1199 back (queue size: 0).
+2025-11-13 18:07:05,751	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:73)	Waiting for all cleanups to finish.
+2025-11-13 18:07:05,752	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:75)	Exiting Kaleido
+2025-11-13 18:07:05,754	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:05,758	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:05,764	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:61)	Cancelling tasks.
+2025-11-13 18:07:05,767	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:68)	Exiting Kaleido/Choreo
+2025-11-13 18:07:05,769	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:220)	Closing browser.
+2025-11-13 18:07:05,772	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:05,773	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:05,774	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:61)	Cancelling tasks.
+2025-11-13 18:07:05,783	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:68)	Exiting Kaleido/Choreo
+2025-11-13 18:07:05,784	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:220)	Closing browser.
+2025-11-13 18:07:06,312	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:06,314	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:06,613	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:154)	Chromium init'ed with kwargs {}
+2025-11-13 18:07:06,614	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:188)	Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-11-13 18:07:06,615	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:80)	Temp directory created: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmp7rm7_z5c.
+2025-11-13 18:07:06,618	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:111)	Opening browser.
+2025-11-13 18:07:06,622	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:80)	Temp directory created: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmpyq4bt732.
+2025-11-13 18:07:06,623	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browsers\chromium.py(Line:203)	Temporary directory at: C:\Users\èaíJó∫àÍ\AppData\Local\Temp\tmpyq4bt732
+2025-11-13 18:07:07,066	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:150)	Conforming 1 to file:///C:/Users/%E6%B8%8B%E8%B0%B7%E4%BA%AE%E4%B8%80/AppData/Local/Temp/tmp7rm7_z5c/index.html
+2025-11-13 18:07:07,067	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:163)	Waiting on all navigates
+2025-11-13 18:07:08,926	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:165)	All navigates done, putting them all in queue.
+2025-11-13 18:07:08,930	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:218)	Getting tab from queue (has 1)
+2025-11-13 18:07:08,930	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:220)	Got F2B0
+2025-11-13 18:07:08,931	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:284)	Processing Tips_the_axes_through_SelectKBest_algorithm.png
+2025-11-13 18:07:08,931	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:306)	Sending big command for Tips_the_axes_through_SelectKBest_algorithm.png.
+2025-11-13 18:07:10,481	[INFO]	C:\Python\env\Lib\site-packages\kaleido\_kaleido_tab.py(Line:312)	Sent big command for Tips_the_axes_through_SelectKBest_algorithm.png.
+2025-11-13 18:07:10,486	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:231)	Reloading tab F2B0 before return.
+2025-11-13 18:07:10,652	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:233)	Putting tab F2B0 back (queue size: 0).
+2025-11-13 18:07:10,652	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:73)	Waiting for all cleanups to finish.
+2025-11-13 18:07:10,653	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:75)	Exiting Kaleido
+2025-11-13 18:07:10,654	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:10,655	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:10,655	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:61)	Cancelling tasks.
+2025-11-13 18:07:10,656	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:68)	Exiting Kaleido/Choreo
+2025-11-13 18:07:10,656	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:220)	Closing browser.
+2025-11-13 18:07:10,658	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:10,663	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:10,665	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:61)	Cancelling tasks.
+2025-11-13 18:07:10,665	[INFO]	C:\Python\env\Lib\site-packages\kaleido\kaleido.py(Line:68)	Exiting Kaleido/Choreo
+2025-11-13 18:07:10,666	[INFO]	C:\Python\env\Lib\site-packages\choreographer\browser_async.py(Line:220)	Closing browser.
+2025-11-13 18:07:11,150	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:07:11,151	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:07:11,947	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 17573
+2025-11-13 18:07:11,973	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_flavanoids.png HTTP/1.1" 200 38239
+2025-11-13 18:07:11,986	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_dilutedWines.png HTTP/1.1" 200 37291
+2025-11-13 18:07:11,998	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_proline.png HTTP/1.1" 200 41378
+2025-11-13 18:07:12,008	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024819_p_histogram_class.png HTTP/1.1" 200 19452
+2025-11-13 18:07:12,019	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024819_p_piersons_r.png HTTP/1.1" 200 28846
+2025-11-13 18:07:12,031	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024826_p_3DscatterDiagram.png HTTP/1.1" 200 61931
+2025-11-13 18:07:12,043	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024831_p_3DboundarySurface.png HTTP/1.1" 200 79790
+2025-11-13 18:07:44,612	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /logout/ HTTP/1.1" 302 0
+2025-11-13 18:07:44,618	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2025-11-13 18:07:44,652	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-13 18:09:10,468	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:09:10,481	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-13 18:09:10,482	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:156)	TemporaryDirectory.cleanup() worked.
+2025-11-13 18:09:10,483	[INFO]	C:\Python\env\Lib\site-packages\choreographer\utils\_tmpfile.py(Line:180)	shutil.rmtree worked.
+2025-11-18 19:39:27,829	[INFO]	C:\Python\env\Lib\site-packages\django\utils\autoreload.py(Line:667)	Watching for file changes with StatReloader
+2025-11-18 19:39:48,653	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET / HTTP/1.1" 302 0
+2025-11-18 19:39:48,695	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2025-11-18 19:39:48,742	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-18 19:39:51,284	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /login/ HTTP/1.1" 302 0
+2025-11-18 19:39:51,291	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview HTTP/1.1" 301 0
+2025-11-18 19:39:51,316	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /topview/ HTTP/1.1" 200 5840
+2025-11-18 19:39:51,345	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-18 19:39:54,026	[INFO]	H:\ÇªÇÃëºÇÃÉpÉ\ÉRÉì\My Laptop\GDrive\Programming\Python\MyProject\TekapawSoft\e2d-folder\e2dproject-django\apps\appml\views.py(Line:29)	[views.py] ----- "/appml" sakura.suwa@example.com -----
+2025-11-18 19:39:56,116	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"POST /appml/ HTTP/1.1" 200 17573
+2025-11-18 19:39:56,147	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_flavanoids.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,148	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_dilutedWines.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,156	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024826_p_3DscatterDiagram.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,157	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024819_p_piersons_r.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,165	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024818_p_histogram_proline.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,165	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024819_p_histogram_class.png HTTP/1.1" 304 0
+2025-11-18 19:39:56,172	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/wdir/sakura.suwa@example.com/output/1763024831_p_3DboundarySurface.png HTTP/1.1" 304 0
+2025-11-18 19:39:59,324	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /logout/ HTTP/1.1" 302 0
+2025-11-18 19:39:59,330	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /login/ HTTP/1.1" 200 3884
+2025-11-18 19:39:59,359	[INFO]	C:\Python\env\Lib\site-packages\django\core\servers\basehttp.py(Line:213)	"GET /static/css/style.css HTTP/1.1" 304 0

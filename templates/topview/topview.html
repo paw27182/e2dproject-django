@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}
+    Topview
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/topview.js' %}"></script>
+{% endblock %}
+
+{% block header %}
+    <h3 style="color: lightsteelblue;">{{ headline }}</h3>
+    <div class="form-inline d-flex justify-content-end"><a href="{% url 'accounts:logout' %}">logout</a></div>
+
+
+
+    <p style="font-size: 12pt;color: black;">{{ message }}</p>
+{% endblock %}
+
+{% block navigation %}
+    <!-- Tab Items -->
+    <ul class="nav nav-tabs">
+        <!-- Home Tab -->
+        <li class="nav-item">
+            <a class="nav-link active" href="#home" id="home_tab">Home</a>
+        </li>
+
+        <!-- Entry Tab-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" title="登録">Entry</a>
+            <div class="dropdown-menu" id="Entry">
+                <a class="dropdown-item" href="#" id="submit_a_form" style="color: blue">Submit a form</a>
+            </div>
+        </li>
+
+        <!-- Inquiry Tab -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" title="照会">Inquiry</a>
+            <div class="dropdown-menu" id="Inquiry">
+                <a class="dropdown-item" href="#" id="get_a_list_of_forms" style="color: blue">Get a list of forms</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="privilege" data-bs-toggle="tooltip" title="Needs Database or Group Administrator privilege">Show privilege</a>
+                <a class="dropdown-item" href="#" id="signupusers" data-bs-toggle="tooltip" title="Needs System Administrator privilege">Show signup users</a>
+            </div>
+        </li>
+
+        <!-- Machine Learning Tab -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" title="機械学習">ML</a>
+            <div class="dropdown-menu" id="machine_learning">
+                <a class="dropdown-item" href="#" id="get_a_list_of_forms_for_machine_learning" style="color: blue" >Get a list of forms</a>
+                <a class="dropdown-item" href="#" id="restore_the_result" style="color: red" data-bs-toggle="tooltip" title="Show the last executed machine learning result.">Restore the result</a>
+                <div class="dropdown-divider"></div>
+            </div>
+        </li>
+
+       <!-- Help tab -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Help</a>
+            <div class="dropdown-menu" id="Help">
+                <a class="dropdown-item" href="#" id="FAQ">FAQ</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="Contact">Contact</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{% static 'manual/html/index.html' %}" target="_blank" rel="noopener noreferrer" id="manual">Manual</a>
+            </div>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <!-- Tab Contents -->
+    <div class="tab-content">
+        <!-- Home Content show active -->
+        <div class="tab-pane fade show active" id="home" role="tabpanel">
+            <div class="font-weight-bold">
+                Welcome !<br><br>
+            </div>
+
+            <!-- download link -->
+            <div>
+                <a href="{% url 'downloads' 'download\\sampledata.zip' %}">Click me to download sampledata</a>
+            </div>
+
+            <div class="font-weight-bold">
+                Last update: November 10th, 2024<br><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Request Area -->
+    <div id="area4Request">
+        <span class="label label-primary" id="label_request_area"></span><!-- breadcrumb list -->
+
+        <form id="uploadForm" class="upload-form">
+            <input type="hidden" id="selected_dropdown_item" value="unknown"><!-- ex.) "Submit_a_form" -->
+            <div id="area1"></div><!-- ex.) "topview.js" loads "submit.html" here -->
+        </form>
+    </div>
+
+    <!-- Result Area -->
+    <div id="area4Result"></div>
+
+{% endblock %}

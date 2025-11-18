@@ -1,0 +1,64 @@
+{% load static %}
+
+<script src="{% static 'js/appml.js' %}"></script>
+
+{% if "NG" in alert %}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{ alert }}
+    </div>
+{% endif %}
+
+<div class="table-responsive">
+    <table class="table table-hover table-primary mt-2">
+        <thead>
+            <tr>
+                <th >#</th>
+                <th>Form</th>
+                <th>...</th>
+                <th>Size</th>
+                <th>Group</th>
+                <th>update_at</th>
+                <th>modified_by</th>
+
+             </tr>
+        </thead>
+
+    {% for item in items%}
+        <tbody>
+            <tr>
+                <td> {{ item.0 }} </td><!-- # -->
+                <td> {{ item.1 }} </td><!-- Form -->
+
+                <td><!-- Button -->
+                    <div class="tab-pane fade show" role="tabpanel">
+                        <div class="form-group row">
+                            <div class="col">
+                                <li class="nav-item dropdown">
+                                    <button class="btn dropdown-toggle" style="color:#000000" id="inquiryFormDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</button>
+
+                                    <div class="dropdown-menu" aria-labelledby="inquiryFormDropdown">
+                                        <a class="btn_result dropdown-item" href="#" id="statistics_analysis" value1="{{ item.1 }}" value2="{{ item.3 }}" title="統計解析">Statistics</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="btn_result dropdown-item disabled" href="#" id="cls_compare_algorithms" value1="{{ item.1 }}" value2="{{ item.3 }}" title="分類アルゴリズム比較">Classification Algorithms</a>
+                                        <a class="btn_result dropdown-item disabled" href="#" id="cls_find_optimal_model" value1="{{ item.1 }}" value2="{{ item.3 }}" title="最適分類モデル生成">Optimal Classification Model</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="btn_result dropdown-item disabled" href="#" id="reg_compare_algorithms" value1="{{ item.1 }}" value2="{{ item.3 }}" title="回帰アルゴリズム比較">Regression Algorithms</a>
+                                        <a class="btn_result dropdown-item disabled" href="#" id="reg_find_optimal_model" value1="{{ item.1 }}" value2="{{ item.3 }}" title="最適回帰モデル生成">Optimal Regression Model</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="btn_result dropdown-item disabled" href="#" id="time_series_analysis_parameters" value1="{{ item.1 }}" value2="{{ item.3 }}" title="時系列解析">Time Series Analysis</a>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td> {{ item.2 }} </td><!-- Size -->
+                <td> {{ item.3 }} </td><!-- Form Owner Group -->
+                <td> {{ item.4 }} </td><!-- update_at -->
+                <td> {{ item.5 }} </td><!-- modified_by -->
+            </tr>
+        </tbody>
+    {% endfor %}
+    </table>
+</div>
