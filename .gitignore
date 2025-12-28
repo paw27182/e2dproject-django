@@ -3,4 +3,4 @@
 *.pyc
 __pycache__/
 readme.txt
-log/*.log
+*.log
