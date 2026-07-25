@@ -175,7 +175,7 @@ LOGGING = {
 
 AUTH_USER_MODEL = 'accounts.User'
 
-# In case of Windows 10
+# In case of Windows 10/11
 PYTHON_EXE_FILE = r"C:/Python/env/Scripts/python.exe"  # specify python executable file
 DB_ADMINISTRATOR = ["kate.walsh@example.com", "mack.davis@example.com"]
 DATABASE_TYPE = "SQLite3"
